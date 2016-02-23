@@ -19,7 +19,7 @@
 * **Headers**  
   Content-Type: application/json  
 * **Success Response:**  
-* **Code:** 200 <br />
+* **Code:** 200  
   **Content:**  
 ```
 {
@@ -41,7 +41,9 @@
 * **Headers**  
   Content-Type: application/json  
   Authorization: Bearer `<OAuth Token>`
-* **Success Response:**  
+* **Success Response:** 
+* **Code:** 200  
+  **Content:**  `{ <user_object> }` 
 * **Error Response:**  
   * **Code:** 404  
   **Content:** `{ error : "User doesn't exist" }`  
@@ -60,6 +62,17 @@
   Content-Type: application/json  
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
+* **Code:** 200  
+  **Content:**  
+```
+{
+  orders: [
+           {<order_object>},
+           {<order_object>},
+           {<order_object>}
+         ]
+}
+```
 * **Error Response:**  
   * **Code:** 404  
   **Content:** `{ error : "User doesn't exist" }`  
@@ -114,7 +127,8 @@
 * **Headers**  
   Content-Type: application/json  
   Authorization: Bearer `<OAuth Token>`
-* **Success Response:**  
+* **Success Response:** 
+  * **Code:** 204 
 * **Error Response:**  
   * **Code:** 404  
   **Content:** `{ error : "User doesn't exist" }`  
@@ -143,7 +157,18 @@
   None
 * **Headers**  
   Content-Type: application/json  
-* **Success Response:**  
+* **Success Response:** 
+* **Code:** 200  
+  **Content:**  
+```
+{
+  products: [
+           {<product_object>},
+           {<product_object>},
+           {<product_object>}
+         ]
+}
+``` 
 
 **GET /products/:id**
 ----
@@ -173,7 +198,18 @@
 * **Headers**  
   Content-Type: application/json  
   Authorization: Bearer `<OAuth Token>`
-* **Success Response:**  
+* **Success Response:** 
+* **Code:** 200  
+  **Content:**  
+```
+{
+  orders: [
+           {<order_object>},
+           {<order_object>},
+           {<order_object>}
+         ]
+}
+``` 
 * **Error Response:**  
   * **Code:** 404  
   **Content:** `{ error : "Product doesn't exist" }`  
@@ -229,6 +265,7 @@
   Content-Type: application/json  
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
+  * **Code:** 204
 * **Error Response:**  
   * **Code:** 404  
   **Content:** `{ error : "Product doesn't exist" }`  
@@ -270,7 +307,18 @@
   None
 * **Headers**  
   Content-Type: application/json  
-* **Success Response:**  
+* **Success Response:** 
+* **Code:** 200  
+  **Content:**  
+```
+{
+  orders: [
+           {<order_object>},
+           {<order_object>},
+           {<order_object>}
+         ]
+}
+``` 
 
 **GET /orders/:id**
 ----
@@ -301,6 +349,17 @@
   Content-Type: application/json  
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
+* **Code:** 200  
+  **Content:**  
+```
+{
+  products: [
+           {<product_object>},
+           {<product_object>},
+           {<product_object>}
+         ]
+}
+```
 * **Error Response:**  
   * **Code:** 404  
   **Content:** `{ error : "Order doesn't exist" }`  
@@ -318,7 +377,7 @@
 * **Headers**  
   Content-Type: application/json  
   Authorization: Bearer `<OAuth Token>`
-* **Success Response:**  
+* **Success Response:** `{ <user_object> }`  
 * **Error Response:**  
   * **Code:** 404  
   **Content:** `{ error : "Order doesn't exist" }`  
@@ -373,7 +432,8 @@
 * **Headers**  
   Content-Type: application/json  
   Authorization: Bearer `<OAuth Token>`
-* **Success Response:**  
+* **Success Response:** 
+  * **Code:** 204 
 * **Error Response:**  
   * **Code:** 404  
   **Content:** `{ error : "Order doesn't exist" }`  
