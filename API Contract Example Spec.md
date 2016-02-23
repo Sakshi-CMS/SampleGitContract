@@ -26,7 +26,7 @@
 ----
   Returns the specified user.
 * **URL Params**  
-  **Required:** `id=[integer]`
+  *Required:* `id=[integer]`
 * **Data Params**  
   None
 * **Headers**  
@@ -40,7 +40,7 @@
 ----
   Returns all Orders associated with the specified user.
 * **URL Params**  
-  **Required:** `id=[integer]`
+  *Required:* `id=[integer]`
 * **Data Params**  
   None
 * **Headers**  
@@ -71,7 +71,7 @@
 ----
   Updates fields on the specified user and returns the updated object.
 * **URL Params**  
-  **Required:** `id=[integer]`
+  *Required:* `id=[integer]`
 * **Data Params**  
 ```
   {
@@ -89,7 +89,7 @@
 ----
   Deletes the specified user.
 * **URL Params**  
-  **Required:** `id=[integer]`
+  *Required:* `id=[integer]`
 * **Data Params**  
   None
 * **Headers**  
@@ -128,7 +128,7 @@
 ----
   Returns the specified product.
 * **URL Params**  
-  **Required:** `id=[integer]`
+  *Required:* `id=[integer]`
 * **Data Params**  
   None
 * **Headers**  
@@ -142,7 +142,7 @@
 ----
   Returns all Orders associated with the specified product.
 * **URL Params**  
-  **Required:** `id=[integer]`
+  *Required:* `id=[integer]`
 * **Data Params**  
   None
 * **Headers**  
@@ -173,7 +173,7 @@
 ----
   Updates fields on the specified product and returns the updated object.
 * **URL Params**  
-  **Required:** `id=[integer]`
+  *Required:* `id=[integer]`
 * **Data Params**  
 ```
   {
@@ -191,7 +191,7 @@
 ----
   Deletes the specified product.
 * **URL Params**  
-  **Required:** `id=[integer]`
+  *Required:* `id=[integer]`
 * **Data Params**  
   None
 * **Headers**  
@@ -243,7 +243,7 @@
 ----
   Returns the specified order.
 * **URL Params**  
-  **Required:** `id=[integer]`
+  *Required:* `id=[integer]`
 * **Data Params**  
   None
 * **Headers**  
@@ -257,7 +257,7 @@
 ----
   Returns all Products associated with the specified order.
 * **URL Params**  
-  **Required:** `id=[integer]`
+  *Required:* `id=[integer]`
 * **Data Params**  
   None
 * **Headers**  
@@ -271,7 +271,7 @@
 ----
   Returns all Users associated with the specified order.
 * **URL Params**  
-  **Required:** `id=[integer]`
+  *Required:* `id=[integer]`
 * **Data Params**  
   None
 * **Headers**  
@@ -302,7 +302,7 @@
 ----
   Updates fields on the specified order and returns the updated object.
 * **URL Params**  
-  **Required:** `id=[integer]`
+  *Required:* `id=[integer]`
 * **Data Params**  
 ```
   {
@@ -320,7 +320,7 @@
 ----
   Deletes the specified order.
 * **URL Params**  
-  **Required:** `id=[integer]`
+  *Required:* `id=[integer]`
 * **Data Params**  
   None
 * **Headers**  
