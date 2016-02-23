@@ -19,8 +19,15 @@
 * **Headers**  
   Content-Type: application/json  
 * **Success Response:**  
-* **Error Response:**  
-  OR 
+* **Code:** 200 <br />
+  **Content:** 
+    ```
+     users: [
+              {<user_object>},
+              {<user_object>},
+              {<user_object>}
+            ]
+    ```
 
 **GET /users/:id**
 ----
@@ -34,7 +41,11 @@
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
-  OR 
+  * **Code:** 404  
+  **Content:** `{ error : "User doesn't exist" }`  
+  OR  
+  * **Code:** 401  
+  **Content:** `{ error : error : "You are unauthorized to make this request." }
 
 **GET /users/:id/orders**
 ----
@@ -48,7 +59,11 @@
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
-  OR 
+  * **Code:** 404  
+  **Content:** `{ error : "User doesn't exist" }`  
+  OR  
+  * **Code:** 401  
+  **Content:** `{ error : error : "You are unauthorized to make this request." }
 
 **POST /users**
 ----
@@ -64,8 +79,6 @@
   }
 ```
 * **Success Response:**  
-* **Error Response:**  
-  OR 
 
 **PATCH /users/:id**
 ----
@@ -83,7 +96,11 @@
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
-  OR 
+  * **Code:** 404  
+  **Content:** `{ error : "User doesn't exist" }`  
+  OR  
+  * **Code:** 401  
+  **Content:** `{ error : error : "You are unauthorized to make this request." }
 
 **DELETE /users/:id**
 ----
@@ -97,7 +114,11 @@
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
-  OR 
+  * **Code:** 404  
+  **Content:** `{ error : "User doesn't exist" }`  
+  OR  
+  * **Code:** 401  
+  **Content:** `{ error : error : "You are unauthorized to make this request." }
 
 ##Products
 * Product object
@@ -121,8 +142,6 @@
 * **Headers**  
   Content-Type: application/json  
 * **Success Response:**  
-* **Error Response:**  
-  OR 
 
 **GET /products/:id**
 ----
@@ -136,7 +155,11 @@
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
-  OR 
+  * **Code:** 404  
+  **Content:** `{ error : "Product doesn't exist" }`  
+  OR  
+  * **Code:** 401  
+  **Content:** `{ error : error : "You are unauthorized to make this request." }
 
 **GET /products/:id/orders**
 ----
@@ -150,7 +173,11 @@
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
-  OR 
+  * **Code:** 404  
+  **Content:** `{ error : "Product doesn't exist" }`  
+  OR  
+  * **Code:** 401  
+  **Content:** `{ error : error : "You are unauthorized to make this request." }
 
 **POST /products**
 ----
@@ -166,8 +193,6 @@
 * **Headers**  
   Content-Type: application/json  
 * **Success Response:**  
-* **Error Response:**  
-  OR 
 
 **PATCH /products/:id**
 ----
@@ -185,7 +210,11 @@
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
-  OR 
+  * **Code:** 404  
+  **Content:** `{ error : "Product doesn't exist" }`  
+  OR  
+  * **Code:** 401  
+  **Content:** `{ error : error : "You are unauthorized to make this request." }
 
 **DELETE /products/:id**
 ----
@@ -199,7 +228,11 @@
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
-  OR 
+  * **Code:** 404  
+  **Content:** `{ error : "Product doesn't exist" }`  
+  OR  
+  * **Code:** 401  
+  **Content:** `{ error : error : "You are unauthorized to make this request." }
 
 ##Orders
 * Order object
@@ -236,8 +269,6 @@
 * **Headers**  
   Content-Type: application/json  
 * **Success Response:**  
-* **Error Response:**  
-  OR 
 
 **GET /orders/:id**
 ----
@@ -251,7 +282,11 @@
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
-  OR 
+  * **Code:** 404  
+  **Content:** `{ error : "Order doesn't exist" }`  
+  OR  
+  * **Code:** 401  
+  **Content:** `{ error : error : "You are unauthorized to make this request." }
 
 **GET /orders/:id/products**
 ----
@@ -265,7 +300,11 @@
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
-  OR 
+  * **Code:** 404  
+  **Content:** `{ error : "Order doesn't exist" }`  
+  OR  
+  * **Code:** 401  
+  **Content:** `{ error : error : "You are unauthorized to make this request." }
 
 **GET /orders/:id/user**
 ----
@@ -279,7 +318,11 @@
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
-  OR 
+  * **Code:** 404  
+  **Content:** `{ error : "Order doesn't exist" }`  
+  OR  
+  * **Code:** 401  
+  **Content:** `{ error : error : "You are unauthorized to make this request." }
 
 **POST /orders**
 ----
@@ -295,8 +338,6 @@
 * **Headers**  
   Content-Type: application/json  
 * **Success Response:**  
-* **Error Response:**  
-  OR 
 
 **PATCH /orders/:id**
 ----
@@ -314,7 +355,11 @@
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
-  OR 
+  * **Code:** 404  
+  **Content:** `{ error : "Order doesn't exist" }`  
+  OR  
+  * **Code:** 401  
+  **Content:** `{ error : error : "You are unauthorized to make this request." }
 
 **DELETE /orders/:id**
 ----
@@ -328,4 +373,8 @@
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
-  OR 
+  * **Code:** 404  
+  **Content:** `{ error : "Order doesn't exist" }`  
+  OR  
+  * **Code:** 401  
+  **Content:** `{ error : error : "You are unauthorized to make this request." }
