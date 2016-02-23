@@ -22,11 +22,13 @@
 * **Code:** 200 <br />
   **Content:**  
 ```
-users: [
-          {<user_object>},
-          {<user_object>},
-          {<user_object>}
-        ]
+{
+  users: [
+           {<user_object>},
+           {<user_object>},
+           {<user_object>}
+         ]
+}
 ```
 
 **GET /users/:id**
