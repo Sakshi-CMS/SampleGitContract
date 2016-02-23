@@ -16,7 +16,7 @@
   None
 * **Data Params**
   None
-* **Headers**
+* **Headers**  
   Content-Type: application/json
 * **Success Response:**
 * **Error Response:**
@@ -29,7 +29,7 @@
   **Required:** `id=[integer]`
 * **Data Params**
   None
-* **Headers**
+* **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
 * **Success Response:**
@@ -43,7 +43,7 @@
   **Required:** `id=[integer]`
 * **Data Params**
   None
-* **Headers**
+* **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
 * **Success Response:**
@@ -55,7 +55,7 @@
   Creates a new User and returns the new object.
 * **URL Params**
   None
-* **Headers**
+* **Headers**  
   Content-Type: application/json
 * **Data Params**
 ```
@@ -78,7 +78,7 @@
 
   }
 ```
-* **Headers**
+* **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
 * **Success Response:**
@@ -92,7 +92,7 @@
   **Required:** `id=[integer]`
 * **Data Params**
   None
-* **Headers**
+* **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
 * **Success Response:**
@@ -118,7 +118,7 @@
   None
 * **Data Params**
   None
-* **Headers**
+* **Headers**  
   Content-Type: application/json
 * **Success Response:**
 * **Error Response:**
@@ -131,7 +131,7 @@
   **Required:** `id=[integer]`
 * **Data Params**
   None
-* **Headers**
+* **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
 * **Success Response:**
@@ -145,7 +145,7 @@
   **Required:** `id=[integer]`
 * **Data Params**
   None
-* **Headers**
+* **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
 * **Success Response:**
@@ -163,7 +163,7 @@
 
   }
 ```
-* **Headers**
+* **Headers**  
   Content-Type: application/json
 * **Success Response:**
 * **Error Response:**
@@ -180,7 +180,7 @@
 
   }
 ```
-* **Headers**
+* **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
 * **Success Response:**
@@ -194,7 +194,7 @@
   **Required:** `id=[integer]`
 * **Data Params**
   None
-* **Headers**
+* **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
 * **Success Response:**
@@ -233,7 +233,7 @@
   None
 * **Data Params**
   None
-* **Headers**
+* **Headers**  
   Content-Type: application/json
 * **Success Response:**
 * **Error Response:**
@@ -246,7 +246,7 @@
   **Required:** `id=[integer]`
 * **Data Params**
   None
-* **Headers**
+* **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
 * **Success Response:**
@@ -260,7 +260,7 @@
   **Required:** `id=[integer]`
 * **Data Params**
   None
-* **Headers**
+* **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
 * **Success Response:**
@@ -274,7 +274,7 @@
   **Required:** `id=[integer]`
 * **Data Params**
   None
-* **Headers**
+* **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
 * **Success Response:**
@@ -292,7 +292,7 @@
 
   }
 ```
-* **Headers**
+* **Headers**  
   Content-Type: application/json
 * **Success Response:**
 * **Error Response:**
@@ -309,7 +309,7 @@
 
   }
 ```
-* **Headers**
+* **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
 * **Success Response:**
@@ -323,7 +323,7 @@
   **Required:** `id=[integer]`
 * **Data Params**
   None
-* **Headers**
+* **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
 * **Success Response:**
