@@ -17,7 +17,7 @@
 * **Data Params**
   None
 * **Headers**
-  None
+  Content-Type: application/json
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -30,7 +30,8 @@
 * **Data Params**
   None
 * **Headers**
-  None
+  Content-Type: application/json
+  Authorization: Bearer <OAuth Token>
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -43,7 +44,8 @@
 * **Data Params**
   None
 * **Headers**
-  None
+  Content-Type: application/json
+  Authorization: Bearer <OAuth Token>
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -54,7 +56,7 @@
 * **URL Params**
   None
 * **Headers**
-  None
+  Content-Type: application/json
 * **Data Params**
 ```
   {
@@ -77,7 +79,8 @@
   }
 ```
 * **Headers**
-  None
+  Content-Type: application/json
+  Authorization: Bearer <OAuth Token>
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -90,7 +93,8 @@
 * **Data Params**
   None
 * **Headers**
-  None
+  Content-Type: application/json
+  Authorization: Bearer <OAuth Token>
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -115,7 +119,7 @@
 * **Data Params**
   None
 * **Headers**
-  None
+  Content-Type: application/json
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -128,7 +132,8 @@
 * **Data Params**
   None
 * **Headers**
-  None
+  Content-Type: application/json
+  Authorization: Bearer <OAuth Token>
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -141,7 +146,8 @@
 * **Data Params**
   None
 * **Headers**
-  None
+  Content-Type: application/json
+  Authorization: Bearer <OAuth Token>
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -158,7 +164,7 @@
   }
 ```
 * **Headers**
-  None
+  Content-Type: application/json
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -175,7 +181,8 @@
   }
 ```
 * **Headers**
-  None
+  Content-Type: application/json
+  Authorization: Bearer <OAuth Token>
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -188,7 +195,8 @@
 * **Data Params**
   None
 * **Headers**
-  None
+  Content-Type: application/json
+  Authorization: Bearer <OAuth Token>
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -226,7 +234,7 @@
 * **Data Params**
   None
 * **Headers**
-  None
+  Content-Type: application/json
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -239,7 +247,8 @@
 * **Data Params**
   None
 * **Headers**
-  None
+  Content-Type: application/json
+  Authorization: Bearer <OAuth Token>
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -252,7 +261,8 @@
 * **Data Params**
   None
 * **Headers**
-  None
+  Content-Type: application/json
+  Authorization: Bearer <OAuth Token>
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -265,7 +275,8 @@
 * **Data Params**
   None
 * **Headers**
-  None
+  Content-Type: application/json
+  Authorization: Bearer <OAuth Token>
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -282,7 +293,7 @@
   }
 ```
 * **Headers**
-  None
+  Content-Type: application/json
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -299,7 +310,8 @@
   }
 ```
 * **Headers**
-  None
+  Content-Type: application/json
+  Authorization: Bearer <OAuth Token>
 * **Success Response:**
 * **Error Response:**
   OR 
@@ -312,7 +324,8 @@
 * **Data Params**
   None
 * **Headers**
-  None
+  Content-Type: application/json
+  Authorization: Bearer <OAuth Token>
 * **Success Response:**
 * **Error Response:**
   OR 
