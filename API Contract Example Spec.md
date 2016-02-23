@@ -95,6 +95,8 @@
   }
 ```
 * **Success Response:**  
+* **Code:** 200  
+  **Content:**  `{ <user_object> }` 
 
 **PATCH /users/:id**
 ----
@@ -104,13 +106,16 @@
 * **Data Params**  
 ```
   {
-
+  	username: string,
+    email: string
   }
 ```
 * **Headers**  
   Content-Type: application/json  
   Authorization: Bearer `<OAuth Token>`
-* **Success Response:**  
+* **Success Response:** 
+* **Code:** 200  
+  **Content:**  `{ <user_object> }`  
 * **Error Response:**  
   * **Code:** 404  
   **Content:** `{ error : "User doesn't exist" }`  
@@ -182,6 +187,8 @@
   Content-Type: application/json  
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
+* **Code:** 200  
+  **Content:**  `{ <product_object> }` 
 * **Error Response:**  
   * **Code:** 404  
   **Content:** `{ error : "Product doesn't exist" }`  
@@ -234,6 +241,8 @@
 * **Headers**  
   Content-Type: application/json  
 * **Success Response:**  
+* **Code:** 200  
+  **Content:**  `{ <product_object> }` 
 
 **PATCH /products/:id**
 ----
@@ -251,7 +260,9 @@
 * **Headers**  
   Content-Type: application/json  
   Authorization: Bearer `<OAuth Token>`
-* **Success Response:**  
+* **Success Response:** 
+* **Code:** 200  
+  **Content:**  `{ <product_object> }`  
 * **Error Response:**  
   * **Code:** 404  
   **Content:** `{ error : "Product doesn't exist" }`  
@@ -336,6 +347,8 @@
   Content-Type: application/json  
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
+* **Code:** 200  
+  **Content:**  `{ <order_object> }` 
 * **Error Response:**  
   * **Code:** 404  
   **Content:** `{ error : "Order doesn't exist" }`  
@@ -406,6 +419,8 @@
 * **Headers**  
   Content-Type: application/json  
 * **Success Response:**  
+* **Code:** 200  
+  **Content:**  `{ <order_object> }` 
 
 **PATCH /orders/:id**
 ----
@@ -423,6 +438,8 @@
   Content-Type: application/json  
   Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
+* **Code:** 200  
+  **Content:**  `{ <order_object> }` 
 * **Error Response:**  
   * **Code:** 404  
   **Content:** `{ error : "Order doesn't exist" }`  
