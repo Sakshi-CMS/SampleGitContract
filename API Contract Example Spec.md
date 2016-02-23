@@ -20,7 +20,7 @@
   Content-Type: application/json  
 * **Success Response:**  
 * **Code:** 200 <br />
-  **Content:** 
+  **Content:**  
     ```
      users: [
               {<user_object>},
