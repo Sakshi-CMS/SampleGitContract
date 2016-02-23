@@ -9,7 +9,7 @@
   updated_at: datetime(iso 8601)
 }
 ```
-**Product**
+**Products**
 * Product object
 ```
 {
@@ -21,7 +21,7 @@
   updated_at: datetime(iso 8601)
 }
 ```
-**Order**
+**Orders**
 * Order object
 ```
 {
