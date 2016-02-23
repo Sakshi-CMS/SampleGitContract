@@ -31,7 +31,7 @@
   None
 * **Headers**  
   Content-Type: application/json  
-  Authorization: Bearer ```<OAuth Token>```
+  Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
   OR 
@@ -45,7 +45,7 @@
   None
 * **Headers**  
   Content-Type: application/json  
-  Authorization: Bearer ```<OAuth Token>```
+  Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
   OR 
@@ -80,7 +80,7 @@
 ```
 * **Headers**  
   Content-Type: application/json  
-  Authorization: Bearer ```<OAuth Token>```
+  Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
   OR 
@@ -94,7 +94,7 @@
   None
 * **Headers**  
   Content-Type: application/json  
-  Authorization: Bearer ```<OAuth Token>```
+  Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
   OR 
@@ -133,7 +133,7 @@
   None
 * **Headers**  
   Content-Type: application/json  
-  Authorization: Bearer ```<OAuth Token>```
+  Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
   OR 
@@ -147,7 +147,7 @@
   None
 * **Headers**  
   Content-Type: application/json  
-  Authorization: Bearer ```<OAuth Token>```
+  Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
   OR 
@@ -182,7 +182,7 @@
 ```
 * **Headers**  
   Content-Type: application/json  
-  Authorization: Bearer ```<OAuth Token>```
+  Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
   OR 
@@ -196,7 +196,7 @@
   None
 * **Headers**  
   Content-Type: application/json  
-  Authorization: Bearer ```<OAuth Token>```
+  Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
   OR 
@@ -248,7 +248,7 @@
   None
 * **Headers**  
   Content-Type: application/json  
-  Authorization: Bearer ```<OAuth Token>```
+  Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
   OR 
@@ -262,7 +262,7 @@
   None
 * **Headers**  
   Content-Type: application/json  
-  Authorization: Bearer ```<OAuth Token>```
+  Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
   OR 
@@ -276,7 +276,7 @@
   None
 * **Headers**  
   Content-Type: application/json  
-  Authorization: Bearer ```<OAuth Token>```
+  Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
   OR 
@@ -311,7 +311,7 @@
 ```
 * **Headers**  
   Content-Type: application/json  
-  Authorization: Bearer ```<OAuth Token>```
+  Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
   OR 
@@ -325,7 +325,7 @@
   None
 * **Headers**  
   Content-Type: application/json  
-  Authorization: Bearer ```<OAuth Token>```
+  Authorization: Bearer `<OAuth Token>`
 * **Success Response:**  
 * **Error Response:**  
   OR 
