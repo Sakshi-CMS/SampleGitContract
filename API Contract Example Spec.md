@@ -1,4 +1,4 @@
-##Users
+#Users
 * User object
 ```
 {
@@ -142,7 +142,7 @@
   * **Code:** 401  
   **Content:** `{ error : error : "You are unauthorized to make this request." }`
 
-##Products
+#Products
 * Product object
 ```
 {
@@ -289,7 +289,7 @@
   * **Code:** 401  
   **Content:** `{ error : error : "You are unauthorized to make this request." }`
 
-##Orders
+#Orders
 * Order object
 ```
 {
