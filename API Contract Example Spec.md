@@ -1,4 +1,4 @@
-**Users**
+##Users
 * User object
 ```
 {
@@ -95,7 +95,7 @@
 * **Error Response:**
   OR 
 
-**Products**
+##Products
 * Product object
 ```
 {
@@ -193,7 +193,7 @@
 * **Error Response:**
   OR 
 
-**Orders**
+##Orders
 * Order object
 ```
 {
