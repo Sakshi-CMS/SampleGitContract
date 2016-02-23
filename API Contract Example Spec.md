@@ -49,7 +49,7 @@
   **Content:** `{ error : "User doesn't exist" }`  
   OR  
   * **Code:** 401  
-  **Content:** `{ error : error : "You are unauthorized to make this request." }
+  **Content:** `{ error : error : "You are unauthorized to make this request." }`
 
 **GET /users/:id/orders**
 ----
@@ -78,7 +78,7 @@
   **Content:** `{ error : "User doesn't exist" }`  
   OR  
   * **Code:** 401  
-  **Content:** `{ error : error : "You are unauthorized to make this request." }
+  **Content:** `{ error : error : "You are unauthorized to make this request." }`
 
 **POST /users**
 ----
@@ -115,7 +115,7 @@
   **Content:** `{ error : "User doesn't exist" }`  
   OR  
   * **Code:** 401  
-  **Content:** `{ error : error : "You are unauthorized to make this request." }
+  **Content:** `{ error : error : "You are unauthorized to make this request." }`
 
 **DELETE /users/:id**
 ----
@@ -134,7 +134,7 @@
   **Content:** `{ error : "User doesn't exist" }`  
   OR  
   * **Code:** 401  
-  **Content:** `{ error : error : "You are unauthorized to make this request." }
+  **Content:** `{ error : error : "You are unauthorized to make this request." }`
 
 ##Products
 * Product object
@@ -186,7 +186,7 @@
   **Content:** `{ error : "Product doesn't exist" }`  
   OR  
   * **Code:** 401  
-  **Content:** `{ error : error : "You are unauthorized to make this request." }
+  **Content:** `{ error : error : "You are unauthorized to make this request." }`
 
 **GET /products/:id/orders**
 ----
@@ -215,7 +215,7 @@
   **Content:** `{ error : "Product doesn't exist" }`  
   OR  
   * **Code:** 401  
-  **Content:** `{ error : error : "You are unauthorized to make this request." }
+  **Content:** `{ error : error : "You are unauthorized to make this request." }`
 
 **POST /products**
 ----
@@ -252,7 +252,7 @@
   **Content:** `{ error : "Product doesn't exist" }`  
   OR  
   * **Code:** 401  
-  **Content:** `{ error : error : "You are unauthorized to make this request." }
+  **Content:** `{ error : error : "You are unauthorized to make this request." }`
 
 **DELETE /products/:id**
 ----
@@ -271,7 +271,7 @@
   **Content:** `{ error : "Product doesn't exist" }`  
   OR  
   * **Code:** 401  
-  **Content:** `{ error : error : "You are unauthorized to make this request." }
+  **Content:** `{ error : error : "You are unauthorized to make this request." }`
 
 ##Orders
 * Order object
@@ -336,7 +336,7 @@
   **Content:** `{ error : "Order doesn't exist" }`  
   OR  
   * **Code:** 401  
-  **Content:** `{ error : error : "You are unauthorized to make this request." }
+  **Content:** `{ error : error : "You are unauthorized to make this request." }`
 
 **GET /orders/:id/products**
 ----
@@ -365,7 +365,7 @@
   **Content:** `{ error : "Order doesn't exist" }`  
   OR  
   * **Code:** 401  
-  **Content:** `{ error : error : "You are unauthorized to make this request." }
+  **Content:** `{ error : error : "You are unauthorized to make this request." }`
 
 **GET /orders/:id/user**
 ----
@@ -383,7 +383,7 @@
   **Content:** `{ error : "Order doesn't exist" }`  
   OR  
   * **Code:** 401  
-  **Content:** `{ error : error : "You are unauthorized to make this request." }
+  **Content:** `{ error : error : "You are unauthorized to make this request." }`
 
 **POST /orders**
 ----
@@ -420,7 +420,7 @@
   **Content:** `{ error : "Order doesn't exist" }`  
   OR  
   * **Code:** 401  
-  **Content:** `{ error : error : "You are unauthorized to make this request." }
+  **Content:** `{ error : error : "You are unauthorized to make this request." }`
 
 **DELETE /orders/:id**
 ----
@@ -439,4 +439,4 @@
   **Content:** `{ error : "Order doesn't exist" }`  
   OR  
   * **Code:** 401  
-  **Content:** `{ error : error : "You are unauthorized to make this request." }
+  **Content:** `{ error : error : "You are unauthorized to make this request." }`
