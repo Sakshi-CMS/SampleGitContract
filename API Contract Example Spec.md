@@ -90,7 +90,8 @@
 * **Data Params**  
 ```
   {
-
+    username: string,
+    email: string
   }
 ```
 * **Success Response:**  
@@ -225,7 +226,9 @@
 * **Data Params**  
 ```
   {
-
+    name: string
+    cost: float(2)
+    available_quantity: integer
   }
 ```
 * **Headers**  
@@ -240,7 +243,9 @@
 * **Data Params**  
 ```
   {
-
+  	name: string
+    cost: float(2)
+    available_quantity: integer
   }
 ```
 * **Headers**  
@@ -393,7 +398,9 @@
 * **Data Params**  
 ```
   {
-
+  	user_id: <user_id>
+  	product: <product_id>,
+  	quantity: integer 
   }
 ```
 * **Headers**  
@@ -408,7 +415,8 @@
 * **Data Params**  
 ```
   {
-
+  	product: <product_id>,
+  	quantity: integer 
   }
 ```
 * **Headers**  
