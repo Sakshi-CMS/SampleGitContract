@@ -12,67 +12,67 @@
 **GET /users**
 ----
   Returns all users in the system.
-* **URL Params**
+* **URL Params**  
   None
-* **Data Params**
+* **Data Params**  
   None
 * **Headers**  
   Content-Type: application/json
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **GET /users/:id**
 ----
   Returns the specified user.
-* **URL Params**
+* **URL Params**  
   **Required:** `id=[integer]`
-* **Data Params**
+* **Data Params**  
   None
 * **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **GET /users/:id/orders**
 ----
   Returns all Orders associated with the specified user.
-* **URL Params**
+* **URL Params**  
   **Required:** `id=[integer]`
-* **Data Params**
+* **Data Params**  
   None
 * **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **POST /users**
 ----
   Creates a new User and returns the new object.
-* **URL Params**
+* **URL Params**  
   None
 * **Headers**  
   Content-Type: application/json
-* **Data Params**
+* **Data Params**  
 ```
   {
 
   }
 ```
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **PATCH /users/:id**
 ----
   Updates fields on the specified user and returns the updated object.
-* **URL Params**
+* **URL Params**  
   **Required:** `id=[integer]`
-* **Data Params**
+* **Data Params**  
 ```
   {
 
@@ -81,22 +81,22 @@
 * **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **DELETE /users/:id**
 ----
   Deletes the specified user.
-* **URL Params**
+* **URL Params**  
   **Required:** `id=[integer]`
-* **Data Params**
+* **Data Params**  
   None
 * **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 ##Products
@@ -114,50 +114,50 @@
 **GET /products**
 ----
   Returns all products in the system.
-* **URL Params**
+* **URL Params**  
   None
-* **Data Params**
+* **Data Params**  
   None
 * **Headers**  
   Content-Type: application/json
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **GET /products/:id**
 ----
   Returns the specified product.
-* **URL Params**
+* **URL Params**  
   **Required:** `id=[integer]`
-* **Data Params**
+* **Data Params**  
   None
 * **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **GET /products/:id/orders**
 ----
   Returns all Orders associated with the specified product.
-* **URL Params**
+* **URL Params**  
   **Required:** `id=[integer]`
-* **Data Params**
+* **Data Params**  
   None
 * **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **POST /products**
 ----
   Creates a new Product and returns the new object.
-* **URL Params**
+* **URL Params**  
   None
-* **Data Params**
+* **Data Params**  
 ```
   {
 
@@ -165,16 +165,16 @@
 ```
 * **Headers**  
   Content-Type: application/json
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **PATCH /products/:id**
 ----
   Updates fields on the specified product and returns the updated object.
-* **URL Params**
+* **URL Params**  
   **Required:** `id=[integer]`
-* **Data Params**
+* **Data Params**  
 ```
   {
 
@@ -183,22 +183,22 @@
 * **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **DELETE /products/:id**
 ----
   Deletes the specified product.
-* **URL Params**
+* **URL Params**  
   **Required:** `id=[integer]`
-* **Data Params**
+* **Data Params**  
   None
 * **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 ##Orders
@@ -229,64 +229,64 @@
 **GET /orders**
 ----
   Returns all users in the system.
-* **URL Params**
+* **URL Params**  
   None
-* **Data Params**
+* **Data Params**  
   None
 * **Headers**  
   Content-Type: application/json
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **GET /orders/:id**
 ----
   Returns the specified order.
-* **URL Params**
+* **URL Params**  
   **Required:** `id=[integer]`
-* **Data Params**
+* **Data Params**  
   None
 * **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **GET /orders/:id/products**
 ----
   Returns all Products associated with the specified order.
-* **URL Params**
+* **URL Params**  
   **Required:** `id=[integer]`
-* **Data Params**
+* **Data Params**  
   None
 * **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **GET /orders/:id/user**
 ----
   Returns all Users associated with the specified order.
-* **URL Params**
+* **URL Params**  
   **Required:** `id=[integer]`
-* **Data Params**
+* **Data Params**  
   None
 * **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **POST /orders**
 ----
   Creates a new Order and returns the new object.
-* **URL Params**
+* **URL Params**  
   None
-* **Data Params**
+* **Data Params**  
 ```
   {
 
@@ -294,16 +294,16 @@
 ```
 * **Headers**  
   Content-Type: application/json
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **PATCH /orders/:id**
 ----
   Updates fields on the specified order and returns the updated object.
-* **URL Params**
+* **URL Params**  
   **Required:** `id=[integer]`
-* **Data Params**
+* **Data Params**  
 ```
   {
 
@@ -312,20 +312,20 @@
 * **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
 
 **DELETE /orders/:id**
 ----
   Deletes the specified order.
-* **URL Params**
+* **URL Params**  
   **Required:** `id=[integer]`
-* **Data Params**
+* **Data Params**  
   None
 * **Headers**  
   Content-Type: application/json
   Authorization: Bearer <OAuth Token>
-* **Success Response:**
-* **Error Response:**
+* **Success Response:**  
+* **Error Response:**  
   OR 
